@@ -15,6 +15,11 @@
 
  .font--khula {
    font-family: 'Khula', sans-serif;
+   font-weight: normal;
+ }
+
+ .font--4rem {
+   font-size: 4rem !important;
  }
 
  p {
@@ -1727,4 +1732,11 @@
    -moz-transition: all 0.2s linear;
    -o-transition: all 0.2s linear;
    transition: all 0.2s linear;
+ }
+
+ .jhannifer-thumb {
+   width: 250px;
+   height: auto;
+
+   margin: 0 auto;
  }
