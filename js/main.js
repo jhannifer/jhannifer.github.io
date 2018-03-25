@@ -38,17 +38,17 @@
 /* ==========================================================================
    Carousel Main Slider
    ========================================================================== */
-// $(".carousel-slider").owlCarousel({
-//     navigation: true,
-//     pagination: false,
-//     slideSpeed: 1000,
-//     stopOnHover: true,
-//     autoPlay: true,
-//     items: 1,
-//     itemsDesktopSmall: [1024, 1],
-//     itemsTablet: [600, 1],
-//     itemsMobile: [479, 1]
-// });
+$(".carousel-slider").owlCarousel({
+    navigation: false,
+    pagination: false,
+    slideSpeed: 1000,
+    stopOnHover: true,
+    autoPlay: false,
+    items: 1,
+    itemsDesktopSmall: [1024, 1],
+    itemsTablet: [600, 1],
+    itemsMobile: [479, 1]
+});
 
 /* ==========================================================================
    Touch Owl Carousel
