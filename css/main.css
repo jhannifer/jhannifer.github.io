@@ -1559,23 +1559,23 @@ a:not([href]):not([tabindex]):hover {
    background-color: transparent;
 }
 
-#contact {
-   background: #393f43;
+.contact {
+   background: #000;
 }
 
-#contact .section-title {
+.contact .section-title {
    color: #fff;
    text-align: center;
    font-size: 36px;
    margin: 0 0 15px 0;
 }
 
-#contact .subtitle {
+.contact .subtitle {
    color: #fff;
    text-align: center;
 }
 
-#contact #contactForm {
+.contact #contactForm {
    margin-top: 30px;
 }
 
