@@ -106,7 +106,7 @@ $(window).on('scroll', function() {
 
       // one page navigation 
       $('.main-navigation').onePageNav({
-              currentClass: 'active'
+          currentClass: 'active'
       });
 
       
