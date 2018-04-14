@@ -15,8 +15,6 @@
       delay: 1,
       time: 500
     });
-
-    $('#hero-area').stellar();
   });
 
   /* slicknav mobile menu active  */
