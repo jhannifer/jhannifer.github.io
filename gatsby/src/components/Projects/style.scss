@@ -1,0 +1,28 @@
+.pj-project {
+  margin: 1rem 2rem;
+  padding: 1rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.541);
+}
+
+.pj-project:last-child {
+  border-bottom: none; 
+}
+
+.pj-link {
+  color: #26ff00;
+}
+
+.pj-link:hover {
+  color: #3dc525;
+}
+
+
+@media screen and (max-width: 576px) {
+  .pj-project {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
