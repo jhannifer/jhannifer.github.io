@@ -54,11 +54,7 @@ export default class HTML extends React.Component {
             href="https://cdn.jsdelivr.net/gh/code-fx/Pure-CSS3-Animated-Border@V1.0/css/animated-border/animated-border.min.css"
           />
 
-          <script
-            src="https://code.jquery.com/jquery-3.2.1.min.js"
-            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-            crossorigin="anonymous"
-          />
+          <script src="https://code.jquery.com/jquery-3.2.1.min.js" />
         </head>
         <body>
           <div

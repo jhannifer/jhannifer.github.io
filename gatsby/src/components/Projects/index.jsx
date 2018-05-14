@@ -2,43 +2,199 @@ import React from 'react'
 import Link from 'gatsby-link'
 import './style.scss'
 
+import ScrollableAnchor from 'react-scrollable-anchor'
+import { configureAnchors } from 'react-scrollable-anchor'
+
 class Projects extends React.Component {
   render() {
+    configureAnchors({ offset: -60, scrollDuration: 600 })
     return (
-      <div className="container box">
-        <div className="d-flex flex-column justify-content-center box-content">
-          <h2 className="box-title display-4">&lt;Past Projects /&gt;</h2>
-          <p className="lead">Some of my proudest works, but none of them is about designing a new middle-out compression algorithm</p>
+      <ScrollableAnchor id={'portfolio'}>
+        <div>
+          <section className="section">
+            <div className="container">
+              <div className="section-header">
+                <h2
+                  className="wow fadeInUp font--oranienbaum section-title--size"
+                  data-wow-duration="1000ms"
+                  data-wow-delay="300ms"
+                >
+                  PROJETOS
+                </h2>
+              </div>
+              <div className="row">
+                <div className="col-md-12">
+                  <div
+                    className="controls text-center wow fadeInUp"
+                    data-wow-delay=".6s"
+                  >
+                    <a
+                      className="control mixitup-control-active btn btn-common"
+                      data-filter="all"
+                    >
+                      All
+                    </a>
+                    <a
+                      className="control btn btn-common"
+                      data-filter=".marketing"
+                    >
+                      Design
+                    </a>
+                    <a
+                      className="control btn btn-common"
+                      data-filter=".planning"
+                    >
+                      Development
+                    </a>
+                    <a
+                      className="control btn btn-common"
+                      data-filter=".research"
+                    >
+                      Print
+                    </a>
+                  </div>
 
-          <div className="pj-project">
-            <h2>Online Speech Recorder (2017)</h2>
-            <p className="">My third-year dissertation - A web application that helps record the users' speech directly on the web browser and also function as a digital archive management system.</p>
-            <p><strong>Technologies</strong>: Node.js | Express.js | MongoDB | Socket.IO | WebRTC API | Amazon Web Services.</p>
-            <p><a href="https://github.com/trung674/third-year-dissertation" className="pj-link" target="_blank" rel="external">Source code</a> | <a href="https://uos-online-recorder.herokuapp.com" className="pj-link" target="_blank" rel="external">Live</a> ( username: abc1@example.com - pasword: t123456789 )</p>
-          </div>
-
-          <div className="pj-project">
-            <h2>Tracking Football Transfer News Web Application (2017)</h2>
-            <p className="">A web app that can capture tweets about the transfer rumours related to a given footballer's name and/or club on Twitter in real time. The returned data is analyzed and shown to the users as detailed frequency tables and pie charts.</p>
-            <p><strong>Technologies: </strong>Node.js | Express.js | MySQL | Twitter API | SPARQL | Chart.js.</p>
-            <p><a href="https://github.com/trung674/IW_Web_App" className="pj-link" target="_blank" rel="external">Source code</a> | <a href="https://football-transfer-tweets.herokuapp.com/" className="pj-link" target="_blank" rel="external">Live</a></p>
-          </div>
-
-          <div className="pj-project">
-            <h2>Tracking Football Transfer News Mobile App (2017)</h2>
-            <p className="">A hybrid mobile app that has the same functionality as the web application. Data is retrieved from the web application's RESTful API via AJAX and then displayed to the users.</p>
-            <p><strong>Technologies: </strong>Apache Cordova | SQlite | jQuery | Ajax.</p>
-            <p><a href="https://github.com/trung674/IW_Mobile_App" className="pj-link" target="_blank" rel="external">Source code</a></p>
-          </div>
-
-          <div className="pj-project">
-            <h2>Village Memories Archive Management System (2016)</h2>
-            <p className="">My first working experience with a real-world client - A web application for supporting the archive management of oral history & files for the South Yorkshire villages of Micklebring, Clifton and Braithwell.</p>
-            <p><strong>Technologies: </strong>Ruby on Rails | SQlite | jQuery | Google Maps API | <a className="pj-link" href="http://www.webasr.org/" target="_blank" rel="external">WebASR</a> | Heroku.</p>
-            <p><a href="https://github.com/trung674/com3420-post-project" className="pj-link" target="_blank" rel="external">Source code</a></p>
-          </div>
+                  <div
+                    id="portfolio"
+                    className="row wow fadeInUp"
+                    data-wow-delay="0.8s"
+                  >
+                    <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing planning ">
+                      <div className="portfolio-item">
+                        <div className="portfolio-img ">
+                          <img src="img/portfolio/img1.jpg" alt="" />
+                        </div>
+                        <div className="portfoli-content ">
+                          <div className="sup-desc-wrap ">
+                            <div className="sup-desc-inner ">
+                              <div className="sup-meta-wrap ">
+                                <a
+                                  className="sup-title"
+                                  href="projects/projeto-um.html"
+                                >
+                                  <h4>GeckPro</h4>
+                                </a>
+                                <p className="sup-description">
+                                  Responsive Wordpress Onepage Template
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix planning">
+                      <div className="portfolio-item">
+                        <div className="portfolio-img">
+                          <img src="img/portfolio/img2.jpg" alt="" />
+                        </div>
+                        <div className="portfoli-content">
+                          <div className="sup-desc-wrap">
+                            <div className="sup-desc-inner">
+                              <div className="sup-meta-wrap">
+                                <a className="sup-title" href="#">
+                                  <h4>GeckBlog</h4>
+                                </a>
+                                <p className="sup-description">
+                                  Responsive Wordpress Onepage Template
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix research">
+                      <div className="portfolio-item">
+                        <div className="portfolio-img">
+                          <img src="img/portfolio/img3.jpg" alt="" />
+                        </div>
+                        <div className="portfoli-content">
+                          <div className="sup-desc-wrap">
+                            <div className="sup-desc-inner">
+                              <div className="sup-meta-wrap">
+                                <a className="sup-title" href="#">
+                                  <h4>Remy</h4>
+                                </a>
+                                <p className="sup-description">
+                                  Responsive Wordpress Onepage Template
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing research">
+                      <div className="portfolio-item">
+                        <div className="portfolio-img">
+                          <img src="img/portfolio/img4.jpg" alt="" />
+                        </div>
+                        <div className="portfoli-content">
+                          <div className="sup-desc-wrap">
+                            <div className="sup-desc-inner">
+                              <div className="sup-meta-wrap">
+                                <a className="sup-title" href="#">
+                                  <h4>Remy</h4>
+                                </a>
+                                <p className="sup-description">
+                                  Responsive Wordpress Onepage Template
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing planning">
+                      <div className="portfolio-item">
+                        <div className="portfolio-img">
+                          <img src="img/portfolio/img5.jpg" alt="" />
+                        </div>
+                        <div className="portfoli-content">
+                          <div className="sup-desc-wrap">
+                            <div className="sup-desc-inner">
+                              <div className="sup-meta-wrap">
+                                <a className="sup-title" href="#">
+                                  <h4>GeckPro</h4>
+                                </a>
+                                <p className="sup-description">
+                                  Responsive Wordpress Onepage Template
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix planning research">
+                      <div className="portfolio-item">
+                        <div className="portfolio-img">
+                          <img src="img/portfolio/img6.jpg" alt="" />
+                        </div>
+                        <div className="portfoli-content">
+                          <div className="sup-desc-wrap">
+                            <div className="sup-desc-inner">
+                              <div className="sup-meta-wrap">
+                                <a className="sup-title" href="#">
+                                  <h4>Coelho</h4>
+                                </a>
+                                <p className="sup-description">
+                                  Responsive Wordpress Onepage Template
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
-      </div>
+      </ScrollableAnchor>
     )
   }
 }

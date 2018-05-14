@@ -29,6 +29,7 @@
     "jquery": "^3.3.1",
     "react-lazyload": "^2.2.7",
     "react-responsive-grid": "^0.3.4",
+    "react-scrollable-anchor": "^0.6.1",
     "react-tap-event-plugin": "^2.0.1",
     "react-typography": "^0.16.5"
   },
@@ -43,9 +44,11 @@
     "eslint-plugin-react": "^7.3.0",
     "font-awesome": "^4.7.0",
     "lint-staged": "^4.2.1",
+    "mixitup": "^3.2.2",
     "moment": "^2.18.1",
     "normalize.css": "^7.0.0",
     "prettier": "^1.7.0",
+    "react-scrollspy": "^3.3.5",
     "striptags": "^3.1.0",
     "textlint": "^8.2.1"
   },
