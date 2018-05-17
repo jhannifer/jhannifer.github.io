@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import { siteMetadata } from '../../gatsby-config'
 
+import './custom-bootstrap.scss'
 import './main.scss'
 import 'animate.css/animate.css'
 import 'font-awesome/css/font-awesome.css'

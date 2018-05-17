@@ -25,7 +25,6 @@ class Index extends React.Component {
             { property: 'og:author', content: site.author },
           ]}
         />
-        return (
         <div>
           <Header />
           <About />

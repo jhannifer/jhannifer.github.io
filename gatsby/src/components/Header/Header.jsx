@@ -38,7 +38,7 @@ class Header extends Component {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#portfolio">
+                  <a className="nav-link" href="#projetos">
                     Portfolio
                   </a>
                 </li>
