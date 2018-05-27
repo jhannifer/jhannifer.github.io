@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import LazyLoad from 'react-lazyload'
 
+import Header from '../../components/Header/Header'
 import SitePost from '../../components/SitePost'
 
 function BlogEntry(props) {
@@ -42,6 +43,7 @@ class BlogIndex extends React.Component {
 
     return (
       <div className="container blog">
+        <Header />
         <div className="blog-content">
           <h1 className="mb-4 display-4">Blog</h1>
           {postEntries}

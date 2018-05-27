@@ -32,14 +32,20 @@ class About extends Component {
                   data-wow-delay="300ms"
                 >
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                    irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum
+                    Eu sou Jhannifer Oliveira, graduada em Arquitetura e
+                    Urbanismo pela UNIME - Lauro de Freitas.
+                  </p>
+                  <p>
+                    Acredito que a
+                    Arquitetura é muito mais que estética e que possui o poder
+                    de modificar a vida das pessoas e influenciar sua forma de
+                    viver, fisica e mentalmente.
+                  </p>
+                  <p>
+                    Nos meus projetos busco aplicar técnicas que intensificam o
+                    conforto através de materiais, psicologia das cores e
+                    principalmente a integração com a natureza em busca de um
+                    projeto humanizado.
                   </p>
                 </div>
               </div>

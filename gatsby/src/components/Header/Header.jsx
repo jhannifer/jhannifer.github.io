@@ -22,7 +22,7 @@ class Header extends Component {
                 <span className="navbar-toggler-icon" />
               </button>
               <a className="navbar-brand" href="index.html">
-                <img src="img/logo.png" alt="" />
+                <img src="img/logo.svg" className="logo-img" alt="Logo do portfolio da arquiteta Jhannifer Oliveira" />
               </a>
             </div>
             <div className="collapse navbar-collapse" id="navbarCollapse">

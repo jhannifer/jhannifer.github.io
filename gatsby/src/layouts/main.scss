@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Khula|Oranienbaum');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Oranienbaum|Montserrat');
 
 $white: #fff !default;
 $gray-100: #f8f9fa !default;
@@ -126,7 +126,7 @@ $display4-size: 3.5rem !default;
 
 html,
 body {
-   font-family: 'Khula', sans-serif;
+   font-family: 'Montserrat', sans-serif;
    color: #666;
    font-size: 14px;
    font-weight: 400;
@@ -138,8 +138,8 @@ body {
    font-family: 'Oranienbaum', sans-serif;
 }
 
-.font--khula {
-   font-family: 'Khula', sans-serif;
+.font--Montserrat {
+   font-family: 'Montserrat', sans-serif;
    font-weight: normal;
 }
 
@@ -1995,4 +1995,8 @@ footer .menu li a:hover {
 
 .project--tags p {
   margin-bottom: 0;
+}
+
+.logo-img {
+  max-width: 100px;
 }
