@@ -1,3 +1,2 @@
-# trung674's portfolio
-
-The current stack: Gatsby + Netlify
+# jhannifer.github.io
+My architecture portfolio
