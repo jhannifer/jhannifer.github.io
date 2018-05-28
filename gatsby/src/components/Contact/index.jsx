@@ -19,41 +19,13 @@ class Contact extends React.Component {
                   data-wow-duration="1000ms"
                   data-wow-delay="300ms"
                 >
-                  <h2 className="section-title">CONTACT US</h2>
-                  <p className="subtitle">
+                  <h2 className="section-title">ENTRE EM CONTATO</h2>
+                  {/* <p className="subtitle">
                     There are many variations of passages of Lorem Ipsum
                     available, but the majority have
                     <br /> uffered alteration, by injected humour, or new
                     randomised words.
-                  </p>
-                  <form id="contactForm">
-                    <div className="row">
-                      <div className="text-center">
-                        <h2>You are using Free Version</h2>
-                        <h4>
-                          Please, purchase full version to get all features and
-                          pages
-                        </h4>
-                        <br />
-                        <b>Including:</b>
-                        <p>- 2 Homepage Variations</p>
-                        <p>- All Elements and Features</p>
-                        <p>- Documentation File</p>
-                        <p>- Quick Support</p>
-                        <p>- Permission to Use in Commercial Projects</p>
-                        <p>- Footer Credit Removal</p>
-                        <p>- SASS Files</p>
-                        <br />
-                        <a
-                          href="http://rebrand.ly/basic-purchase"
-                          target="_blank"
-                          className="btn btn-common btn-lg"
-                        >
-                          Purchase Now
-                        </a>
-                      </div>
-                    </div>
-                  </form>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -72,7 +44,7 @@ class Contact extends React.Component {
                     <div className="icon icon-primary">
                       <i className="icon-map" />
                     </div>
-                    <p>Avenue C, Block.04, DW, USA</p>
+                    <p>Lauro de Freitas - BA</p>
                   </div>
                 </div>
                 <div className="col-md-4 col-sm-4">
@@ -84,7 +56,7 @@ class Contact extends React.Component {
                     <div className="icon icon-secondary">
                       <i className="icon-envelope" />
                     </div>
-                    <p>info@yourdamainname.com</p>
+                    <p>jhanniferoliveira@gmail.com</p>
                   </div>
                 </div>
                 <div className="col-md-4 col-sm-4">
@@ -96,7 +68,7 @@ class Contact extends React.Component {
                     <div className="icon icon-tertiary">
                       <i className="icon-phone" />
                     </div>
-                    <p>(+699)1234-7575-45</p>
+                    <p>(71) 99139-9725 / 3051-1297</p>
                   </div>
                 </div>
               </div>

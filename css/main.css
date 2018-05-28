@@ -1741,6 +1741,11 @@ footer .menu li a:hover {
    border-color: #3b5998;
 }
 
+.social-icon .instagram:hover {
+  background-color: #8a3ab9;
+  border-color: #8a3ab9;
+}
+
 .social-icon .twitter:hover {
    background-color: #55acee;
    border-color: #55acee;

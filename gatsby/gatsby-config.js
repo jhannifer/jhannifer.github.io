@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: "trung674's portfolio",
-    description: "Trung674's personal site for blog posts, project showcase, playground, etc",
-    url: 'https://programmer.moe',
-    author: 'trung674',
+    title: 'Jhannifer Oliveira | Arquiteta e Urbanista',
+    description: 'Site e portfólio da Arquiteta e Urbanista Jhannifer Oliveira',
+    url: 'https://jhannifer.com.br',
+    author: 'jhanniferoliveira',
   },
   pathPrefix: '/',
   plugins: [

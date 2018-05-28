@@ -4,7 +4,7 @@ class Footer extends Component {
   render() {
     return (
       <footer>
-        <section className="footer-Content">
+        {/* <section className="footer-Content">
           <div
             className="container wow fadeInDown"
             data-wow-duration="1000ms"
@@ -121,7 +121,7 @@ class Footer extends Component {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         <div id="copyright">
           <div className="container">
@@ -132,42 +132,24 @@ class Footer extends Component {
                   data-wow-duration="1000ms"
                   data-wow-delay="300ms"
                 >
-                  <p>
-                    Template by
-                    <a rel="nofollow" href="http://graygrids.com">
-                      GrayGrids
-                    </a>
-                  </p>
+                  <p>Copyright © 2018 Jhannifer Oliveira.</p>
                 </div>
                 <div
                   className="bottom-social-icons social-icon pull-right  wow fadeInRight"
                   data-wow-duration="1000ms"
                   data-wow-delay="300ms"
                 >
-                  <a className="twitter" href="https://twitter.com/GrayGrids">
-                    <i className="fa fa-twitter" />
-                  </a>
                   <a
-                    className="facebook"
-                    href="https://web.facebook.com/GrayGrids
-                "
+                    className="instagram"
+                    href="https://instagram.com/jhanniferoliveiraarquitetura"
                   >
-                    <i className="fa fa-facebook " />
-                  </a>
-                  <a
-                    className="google-plus "
-                    href="https://plus.google.com/+GrayGrids"
-                  >
-                    <i className="fa fa-google-plus" />
+                    <i className="fa fa-instagram" />
                   </a>
                   <a
                     className="linkedin"
-                    href="https://www.linkedin.com/GrayGrids"
+                    href="https://www.linkedin.com/in/jhannifer"
                   >
                     <i className="fa fa-linkedin" />
-                  </a>
-                  <a className="dribble" href="https://dribbble.com/GrayGrids">
-                    <i className="fa fa-dribbble" />
                   </a>
                 </div>
               </div>

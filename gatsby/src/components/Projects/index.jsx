@@ -9,19 +9,20 @@ class Projects extends React.Component {
   render() {
     configureAnchors({ offset: -60, scrollDuration: 600 })
     return (
-      <ScrollableAnchor id={'projetos'}>
-        {/* <div> */}
+      <div>
         <section className="section">
           <div className="container">
-            <div className="section-header">
-              <h2
-                className="wow fadeInUp font--oranienbaum section-title--size"
-                data-wow-duration="1000ms"
-                data-wow-delay="300ms"
-              >
-                PROJETOS
-              </h2>
-            </div>
+            <ScrollableAnchor id={'projetos'}>
+              <div className="section-header">
+                <h2
+                  className="wow fadeInUp font--oranienbaum section-title--size"
+                  data-wow-duration="1000ms"
+                  data-wow-delay="300ms"
+                >
+                  PROJETOS
+                </h2>
+              </div>
+            </ScrollableAnchor>
             <div className="row">
               <div className="col-md-12">
                 <div
@@ -32,19 +33,16 @@ class Projects extends React.Component {
                     className="control mixitup-control-active btn btn-common"
                     data-filter="all"
                   >
-                    All
+                    Todos
                   </a>
                   <a
                     className="control btn btn-common"
-                    data-filter=".marketing"
+                    data-filter=".architeture"
                   >
-                    Design
+                    Arquitetura
                   </a>
-                  <a className="control btn btn-common" data-filter=".planning">
-                    Development
-                  </a>
-                  <a className="control btn btn-common" data-filter=".research">
-                    Print
+                  <a className="control btn btn-common" data-filter=".draw">
+                    Desenho
                   </a>
                 </div>
 
@@ -53,7 +51,7 @@ class Projects extends React.Component {
                   className="row wow fadeInUp"
                   data-wow-delay="0.8s"
                 >
-                  <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing planning ">
+                  <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix architeture">
                     <div className="portfolio-item">
                       <div className="portfolio-img ">
                         <img src="img/portfolio/img1.jpg" alt="" />
@@ -62,14 +60,18 @@ class Projects extends React.Component {
                         <div className="sup-desc-wrap ">
                           <div className="sup-desc-inner ">
                             <div className="sup-meta-wrap ">
-                              <a
+                              <Link
+                                to="#"
+                                // to="/projects/centro-reabilitacao-psicosocial"
+                                innerRef={el => {
+                                  this.myLink = el
+                                }}
                                 className="sup-title"
-                                href="projects/projeto-um.html"
                               >
-                                <h4>GeckPro</h4>
-                              </a>
+                                <h4>Centro de Reabilitação Psicosocial</h4>
+                              </Link>
                               <p className="sup-description">
-                                Responsive Wordpress Onepage Template
+                                para crianças e adolescentes
                               </p>
                             </div>
                           </div>
@@ -77,7 +79,7 @@ class Projects extends React.Component {
                       </div>
                     </div>
                   </div>
-                  <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix planning">
+                  <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix drawx">
                     <div className="portfolio-item">
                       <div className="portfolio-img">
                         <img src="img/portfolio/img2.jpg" alt="" />
@@ -87,10 +89,10 @@ class Projects extends React.Component {
                           <div className="sup-desc-inner">
                             <div className="sup-meta-wrap">
                               <a className="sup-title" href="#">
-                                <h4>GeckBlog</h4>
+                                <h4>Em breve...</h4>
                               </a>
                               <p className="sup-description">
-                                Responsive Wordpress Onepage Template
+                                {/* Responsive Wordpress Onepage Template */}
                               </p>
                             </div>
                           </div>
@@ -98,7 +100,7 @@ class Projects extends React.Component {
                       </div>
                     </div>
                   </div>
-                  <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix research">
+                  <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix drawxx">
                     <div className="portfolio-item">
                       <div className="portfolio-img">
                         <img src="img/portfolio/img3.jpg" alt="" />
@@ -108,73 +110,10 @@ class Projects extends React.Component {
                           <div className="sup-desc-inner">
                             <div className="sup-meta-wrap">
                               <a className="sup-title" href="#">
-                                <h4>Remy</h4>
+                                <h4>Em breve...</h4>
                               </a>
                               <p className="sup-description">
-                                Responsive Wordpress Onepage Template
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing research">
-                    <div className="portfolio-item">
-                      <div className="portfolio-img">
-                        <img src="img/portfolio/img4.jpg" alt="" />
-                      </div>
-                      <div className="portfoli-content">
-                        <div className="sup-desc-wrap">
-                          <div className="sup-desc-inner">
-                            <div className="sup-meta-wrap">
-                              <a className="sup-title" href="#">
-                                <h4>Remy</h4>
-                              </a>
-                              <p className="sup-description">
-                                Responsive Wordpress Onepage Template
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing planning">
-                    <div className="portfolio-item">
-                      <div className="portfolio-img">
-                        <img src="img/portfolio/img5.jpg" alt="" />
-                      </div>
-                      <div className="portfoli-content">
-                        <div className="sup-desc-wrap">
-                          <div className="sup-desc-inner">
-                            <div className="sup-meta-wrap">
-                              <a className="sup-title" href="#">
-                                <h4>GeckPro</h4>
-                              </a>
-                              <p className="sup-description">
-                                Responsive Wordpress Onepage Template
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix planning research">
-                    <div className="portfolio-item">
-                      <div className="portfolio-img">
-                        <img src="img/portfolio/img6.jpg" alt="" />
-                      </div>
-                      <div className="portfoli-content">
-                        <div className="sup-desc-wrap">
-                          <div className="sup-desc-inner">
-                            <div className="sup-meta-wrap">
-                              <a className="sup-title" href="#">
-                                <h4>Coelho</h4>
-                              </a>
-                              <p className="sup-description">
-                                Responsive Wordpress Onepage Template
+                                {/* Responsive Wordpress Onepage Template */}
                               </p>
                             </div>
                           </div>
@@ -187,8 +126,7 @@ class Projects extends React.Component {
             </div>
           </div>
         </section>
-        {/* </div> */}
-      </ScrollableAnchor>
+      </div>
     )
   }
 }

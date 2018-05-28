@@ -43,7 +43,7 @@ class BlogIndex extends React.Component {
 
     return (
       <div className="container blog">
-        <Header />
+        <Header type={'test'} />
         <div className="blog-content">
           <h1 className="mb-4 display-4">Blog</h1>
           {postEntries}

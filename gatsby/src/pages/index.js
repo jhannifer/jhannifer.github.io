@@ -26,7 +26,7 @@ class Index extends React.Component {
           ]}
         />
         <div>
-          <Header />
+          <Header type={'front-banner'} />
           <About />
           <Projects />
           <Contact />
