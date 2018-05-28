@@ -16,7 +16,9 @@ class Template extends React.Component {
   componentDidMount() {
     $('#loader').fadeOut()
 
-    mixitup('#portfolio')
+    let porfolio = document.getElementById('portfolio')
+
+    mixitup(porfolio)
 
     $(window).on('scroll', function() {
       if ($(window).scrollTop() > 20) {
