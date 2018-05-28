@@ -1,11 +1,11 @@
 {
-  "name": "portfolio-gatsby",
-  "description": "Portfolio built with Gatsby",
+  "name": "jhanniferoliveira",
+  "description": "Portfolio da Jhannifer Oliveira built with Gatsby",
   "version": "1.0.0",
-  "author": "trung674 <thanhtrung674@gmail.com>",
+  "author": "fxcosta <fx3costa@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/trung674/portfolio"
+    "url": "https://github.com/jhannifer/jhannifer.github.io/"
   },
   "dependencies": {
     "gatsby": "^1.9.36",
@@ -67,7 +67,6 @@
     "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
     "lint:text": "textlint src/pages/**/index.md",
     "lint:textfix": "textlint --fix src/pages/**/index.md",
-    "precommit": "lint-staged",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
