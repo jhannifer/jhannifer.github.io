@@ -16,10 +16,6 @@ class Template extends React.Component {
   componentDidMount() {
     $('#loader').fadeOut()
 
-    let porfolio = document.getElementById('portfolio')
-
-    mixitup(porfolio)
-
     $(window).on('scroll', function() {
       if ($(window).scrollTop() > 20) {
         $('.header-top-area').addClass('menu-bg')
@@ -57,6 +53,8 @@ class Template extends React.Component {
       }
     })
 
+    let porfolio = document.getElementById('portfolio')
+    mixitup(porfolio)
     // const WOW = require('wowjs')
     // this.wow = new WOW.WOW()
     // this.wow.init()

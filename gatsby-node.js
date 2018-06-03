@@ -45,3 +45,12 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
     )
   })
 }
+
+exports.modifyWebpackConfig = ({ config, stage }) => {
+  if (stage === 'build-html') {
+    config.loader('null', {
+      test: /mixitup/,
+      loader: 'null-loader',
+    })
+  }
+}
