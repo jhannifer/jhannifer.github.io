@@ -1,0 +1,86 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-04113c5112bf907e4946.js",
+      "component---src-pages-index-js-04113c5112bf907e4946.js.map"
+    ],
+    "path---blog": [
+      "path---blog-b6a22179b8b2cae9d486.js",
+      "path---blog-b6a22179b8b2cae9d486.js.map"
+    ],
+    "path---blog-playing-with-nodejs-part-2": [
+      "path---blog-playing-with-nodejs-part-2-b45d0764d5af522d1453.js",
+      "path---blog-playing-with-nodejs-part-2-b45d0764d5af522d1453.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---projects": [
+      "path---projects-a0e39f21c11f6a62c5ab.js",
+      "path---projects-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-c21cbceddf65019c7d98.js",
+      "component---src-templates-blog-post-js-c21cbceddf65019c7d98.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-584be4db632d93f870e7.js",
+      "component---src-layouts-index-js-584be4db632d93f870e7.js.map"
+    ],
+    "path---projects-centro-reabilitacao-psicosocial": [
+      "path---projects-centro-reabilitacao-psicosocial-a0e39f21c11f6a62c5ab.js",
+      "path---projects-centro-reabilitacao-psicosocial-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---index": [
+      "path---index-b6a22179b8b2cae9d486.js",
+      "path---index-b6a22179b8b2cae9d486.js.map"
+    ],
+    "component---src-pages-blog-index-js": [
+      "component---src-pages-blog-index-js-efa85756e8dd9cf37095.js",
+      "component---src-pages-blog-index-js-efa85756e8dd9cf37095.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-956c69cc02e108e0b060.js",
+      "component---src-pages-404-js-956c69cc02e108e0b060.js.map"
+    ],
+    "commons": [
+      "commons-9355c837965045fd28b3.js",
+      "commons-9355c837965045fd28b3.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-projects-centro-reabilitacao-psicosocial-index-js": [
+      "component---src-pages-projects-centro-reabilitacao-psicosocial-index-js-bbb34ff595806dea5df6.js",
+      "component---src-pages-projects-centro-reabilitacao-psicosocial-index-js-bbb34ff595806dea5df6.js.map"
+    ],
+    "component---src-pages-projects-index-js": [
+      "component---src-pages-projects-index-js-edcbcc4ac7792b6dc035.js",
+      "component---src-pages-projects-index-js-edcbcc4ac7792b6dc035.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---blog-playing-with-nodejs-part-1": [
+      "path---blog-playing-with-nodejs-part-1-157441778202025c05cf.js",
+      "path---blog-playing-with-nodejs-part-1-157441778202025c05cf.js.map"
+    ],
+    "app": [
+      "app-08fde489c447535c3683.js",
+      "build-js-styles.css",
+      "app-08fde489c447535c3683.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
