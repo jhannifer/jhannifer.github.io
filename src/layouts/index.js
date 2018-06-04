@@ -2,6 +2,8 @@ import React from 'react'
 import Link from 'gatsby-link'
 import { siteMetadata } from '../../gatsby-config'
 
+import 'bootstrap/dist/js/bootstrap.js'
+
 import './custom-bootstrap.scss'
 import './main.scss'
 import 'animate.css/animate.css'
@@ -54,7 +56,11 @@ class Template extends React.Component {
     })
 
     let porfolio = document.getElementById('portfolio')
-    mixitup(porfolio)
+    mixitup(porfolio, {
+      selectors: {
+        control: '[data-mixitup-control]',
+      },
+    })
     // const WOW = require('wowjs')
     // this.wow = new WOW.WOW()
     // this.wow.init()

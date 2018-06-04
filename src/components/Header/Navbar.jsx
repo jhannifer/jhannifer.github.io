@@ -21,7 +21,7 @@ class Navbar extends Component {
               >
                 <span className="navbar-toggler-icon" />
               </button>
-              <a className="navbar-brand" href="index.html">
+              <a className="navbar-brand" href="/">
                 <img
                   src="img/logo.svg"
                   className="logo-img"
@@ -29,8 +29,8 @@ class Navbar extends Component {
                 />
               </a>
             </div>
-            <div className="collapse navbar-collapse" id="navbarCollapse">
-              <ul className="navbar-nav mr-auto w-100 justify-content-end">
+            <div className="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+              <ul className="navbar-nav ">
                 <li className="nav-item">
                   <a className="nav-link" href="#home">
                     Home
@@ -56,7 +56,7 @@ class Navbar extends Component {
           </div>
         </nav>
 
-        <ul className="mobile-menu">
+        {/* <ul className="mobile-menu">
           <li>
             <a href="#hero-area">Home</a>
           </li>
@@ -69,7 +69,7 @@ class Navbar extends Component {
           <li>
             <a href="#contato">Contato</a>
           </li>
-        </ul>
+        </ul> */}
       </div>
     )
   }

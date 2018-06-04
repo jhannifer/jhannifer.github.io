@@ -55,6 +55,7 @@ export default class HTML extends React.Component {
           />
 
           <script src="https://code.jquery.com/jquery-3.2.1.min.js" />
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" />
         </head>
         <body>
           <div

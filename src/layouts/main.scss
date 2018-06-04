@@ -23,6 +23,8 @@ $green:   #26ff00 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 
+$primary-blue: #9ad0f5;
+
 // Reassign color vars to semantic color scheme
 // $theme-colors: (
 //     primary: $purple,
@@ -897,7 +899,7 @@ a:not([href]):not([tabindex]):hover {
 }
 
 .navbar-toggler {
-   display: none;
+  //  display: none;
 }
 
 .mobile-menu {
@@ -1132,7 +1134,9 @@ a:not([href]):not([tabindex]):hover {
 }
 
 .portfolio-img img {
-   width: 100%;
+   width: 350px;
+   max-height: 350px;
+   object-fit: cover;
 }
 
 .portfoli-content {
@@ -1706,6 +1710,14 @@ a:not([href]):not([tabindex]):hover {
    margin-top: 30px;
 }
 
+.contact__infos {
+  color: white;
+
+  a {
+    color: $primary-blue;
+  }
+}
+
 .list-unstyled li {
    color: #df2626;
 }
@@ -1874,8 +1886,8 @@ footer .menu li a:hover {
 }
 
 .social-icon .instagram:hover {
-  background-color: #8a3ab9;
-  border-color: #8a3ab9;
+  background-color:$primary-blue;
+  border-color: $primary-blue;
 }
 
 .social-icon .dribble:hover {
@@ -1899,8 +1911,8 @@ footer .menu li a:hover {
 }
 
 .social-icon .linkedin:hover {
-   background-color: #007bb5;
-   border-color: #007bb5;
+   background-color: $primary-blue;
+   border-color: $primary-blue;
 }
 
 .subscribe-box {

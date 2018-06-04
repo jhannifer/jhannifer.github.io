@@ -31,17 +31,23 @@ class Projects extends React.Component {
                 >
                   <a
                     className="control mixitup-control-active btn btn-common"
+                    data-mixitup-control
                     data-filter="all"
                   >
                     Todos
                   </a>
                   <a
                     className="control btn btn-common"
+                    data-mixitup-control
                     data-filter=".architeture"
                   >
                     Arquitetura
                   </a>
-                  <a className="control btn btn-common" data-filter=".draw">
+                  <a
+                    className="control btn btn-common"
+                    data-mixitup-control
+                    data-filter=".draw"
+                  >
                     Desenho
                   </a>
                 </div>
@@ -54,7 +60,10 @@ class Projects extends React.Component {
                   <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix architeture">
                     <div className="portfolio-item">
                       <div className="portfolio-img ">
-                        <img src="img/portfolio/img1.jpg" alt="" />
+                        <img
+                          src="img/portfolio/centro_reabilitacao.jpg"
+                          alt="Thumbnail do centro de reabilitação psicosocial"
+                        />
                       </div>
                       <div className="portfoli-content ">
                         <div className="sup-desc-wrap ">
@@ -82,7 +91,7 @@ class Projects extends React.Component {
                   <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix drawx">
                     <div className="portfolio-item">
                       <div className="portfolio-img">
-                        <img src="img/portfolio/img2.jpg" alt="" />
+                        <img src="img/portfolio/logo_blue.jpg" alt="" />
                       </div>
                       <div className="portfoli-content">
                         <div className="sup-desc-wrap">
@@ -103,7 +112,7 @@ class Projects extends React.Component {
                   <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix drawxx">
                     <div className="portfolio-item">
                       <div className="portfolio-img">
-                        <img src="img/portfolio/img3.jpg" alt="" />
+                        <img src="img/portfolio/logo_gray.jpg" alt="" />
                       </div>
                       <div className="portfoli-content">
                         <div className="sup-desc-wrap">
