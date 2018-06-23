@@ -36,14 +36,14 @@ class Index extends React.Component {
             <i className="fa fa-arrow-up" />
           </a>
 
-          <div id="loader">
+          {/* <div id="loader">
             <div className="cssload-thecube">
               <div className="cssload-cube cssload-c1" />
               <div className="cssload-cube cssload-c2" />
               <div className="cssload-cube cssload-c4" />
               <div className="cssload-cube cssload-c3" />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     )
