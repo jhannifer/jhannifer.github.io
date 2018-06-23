@@ -23,13 +23,16 @@ class Navbar extends Component {
               </button>
               <a className="navbar-brand" href="/">
                 <img
-                  src="img/logo.svg"
+                  src="/img/logo.svg"
                   className="logo-img"
                   alt="Logo do portfolio da arquiteta Jhannifer Oliveira"
                 />
               </a>
             </div>
-            <div className="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+            <div
+              className="collapse navbar-collapse justify-content-end"
+              id="navbarCollapse"
+            >
               <ul className="navbar-nav ">
                 <li className="nav-item">
                   <a className="nav-link" href="#home">

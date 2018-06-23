@@ -70,8 +70,8 @@ class Projects extends React.Component {
                           <div className="sup-desc-inner ">
                             <div className="sup-meta-wrap ">
                               <Link
-                                to="#"
-                                // to="/projects/centro-reabilitacao-psicosocial"
+                                // to="#"
+                                to="/projects/centro-reabilitacao-psicosocial"
                                 innerRef={el => {
                                   this.myLink = el
                                 }}
