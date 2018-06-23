@@ -1,6 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import { siteMetadata } from '../../gatsby-config'
 
 import 'bootstrap/dist/js/bootstrap.js'
 
@@ -27,7 +25,6 @@ class Template extends React.Component {
     })
 
     let offset = 200
-    let duration = 500
 
     $(window).scroll(function() {
       if ($(this).scrollTop() > offset) {
@@ -56,11 +53,15 @@ class Template extends React.Component {
     })
 
     let porfolio = document.getElementById('portfolio')
-    mixitup(porfolio, {
-      selectors: {
-        control: '[data-mixitup-control]',
-      },
-    })
+
+    if (porfolio) {
+      mixitup(porfolio, {
+        selectors: {
+          control: '[data-mixitup-control]',
+        },
+      })
+    }
+
     // const WOW = require('wowjs')
     // this.wow = new WOW.WOW()
     // this.wow.init()
