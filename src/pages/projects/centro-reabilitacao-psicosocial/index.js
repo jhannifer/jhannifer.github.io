@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import Helmet from 'react-helmet'
 import Header from '../../../components/Header/Header'
+import Footer from '../../../components/Footer'
+import Contact from '../../../components/Contact'
+import ProjectInformation from '../../../components/ProjectInformation/ProjectInformation'
 
 class CentroReabilitacaoPsicosical extends Component {
   render() {
@@ -20,6 +23,9 @@ class CentroReabilitacaoPsicosical extends Component {
         />
         <div>
           <Header type={'p-centro-reabilitacao'} />
+          <ProjectInformation />
+          <Contact />
+          <Footer />
         </div>
       </div>
     )
