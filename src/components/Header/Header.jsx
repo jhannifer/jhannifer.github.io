@@ -16,7 +16,9 @@ class Header extends Component {
               <div className="col-md-10">
                 <div className="carousel-slider owl-carousel owl-theme">
                   <div className="item active">
-                    <div className="contents text-center" />
+                    <div className="contents text-center">
+                      {this.props.bannerTitle}
+                    </div>
                   </div>
                 </div>
               </div>

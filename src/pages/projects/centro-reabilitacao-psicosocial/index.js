@@ -8,6 +8,9 @@ import ProjectInformation from '../../../components/ProjectInformation/ProjectIn
 class CentroReabilitacaoPsicosical extends Component {
   render() {
     const site = this.props.data.site.siteMetadata
+    const bannerTitle = (
+      <h1 className="banner-title">Centro de Reabilitação Psicosocial</h1>
+    )
 
     return (
       <div>
@@ -22,7 +25,7 @@ class CentroReabilitacaoPsicosical extends Component {
           ]}
         />
         <div>
-          <Header type={'p-centro-reabilitacao'} />
+          <Header type={'p-centro-reabilitacao'} bannerTitle={bannerTitle} />
           <ProjectInformation />
           <Contact />
           <Footer />

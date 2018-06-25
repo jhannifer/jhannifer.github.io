@@ -1031,7 +1031,7 @@ a:not([href]):not([tabindex]):hover {
 }
 
 #hero-area .contents {
-   padding: 160px 0 80px;
+   padding: 50vh 0 80px;
 }
 
 #hero-area .contents h1 {
@@ -2027,9 +2027,6 @@ footer .menu li a:hover {
   max-width: 100px;
 }
 
-@media only screen and (min-width: 800px) {
-	// .field--6-in-row {
-	// 	flex-basis: 16.66667%; 
-	// 	-ms-flex-preferred-size: 16.66667%;
-	// }
+.banner-title {
+  color: black !important;
 }
