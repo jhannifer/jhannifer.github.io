@@ -1,7 +1,22 @@
 import React, { Component } from 'react'
+import { withPrefix } from 'gatsby-link'
 
 class Navbar extends Component {
+  constructor(props) {
+    super(props)
+  }
+
   render() {
+    const isHomepage = window.location.pathname === '/'
+    let fullHref = ''
+    
+    if (!isHomepage) {
+      fullHref = `${window.location.origin}`
+    }
+    
+    console.log(isHomepage)
+    console.log(fullHref)
+
     return (
       <div>
         <nav
@@ -35,22 +50,22 @@ class Navbar extends Component {
             >
               <ul className="navbar-nav ">
                 <li className="nav-item">
-                  <a className="nav-link" href="#home">
+                  <a className="nav-link" href={`${fullHref}#home`}>
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#sobre">
+                  <a className="nav-link" href={`${fullHref}#sobre`}>
                     Sobre
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#projetos">
+                  <a className="nav-link" href={`${fullHref}#projetos`}>
                     Portfolio
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#contato">
+                  <a className="nav-link" href={`${fullHref}#contato`}>
                     Contato
                   </a>
                 </li>
