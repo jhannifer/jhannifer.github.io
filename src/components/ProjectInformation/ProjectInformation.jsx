@@ -5,31 +5,31 @@ import './style.scss'
 class ProjectInformation extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="container mb-5">
         <div className="project-meta d-flex justify-content-between flex-wrap">
           <div className="project-meta__field  field--6-in-row">
-            <span className="project-meta__label  mb0">Client</span>
-            <span className="project-meta__value">Statsbygg</span>
+            <span className="project-meta__label  mb0">Cliente</span>
+            <span className="project-meta__value">{this.props.client}</span>
           </div>{' '}
           <div className="project-meta__field  field--6-in-row">
-            <span className="project-meta__label  mb0">Architects</span>
-            <span className="project-meta__value">Snøhetta</span>
+            <span className="project-meta__label  mb0">Arquitetos</span>
+            <span className="project-meta__value">{this.props.architects}</span>
           </div>{' '}
           <div className="project-meta__field  field--6-in-row">
-            <span className="project-meta__label  mb0">Year</span>
-            <span className="project-meta__value">2014</span>
+            <span className="project-meta__label  mb0">Ano</span>
+            <span className="project-meta__value">{this.props.year}</span>
           </div>{' '}
           <div className="project-meta__field  field--6-in-row">
-            <span className="project-meta__label  mb0">Program</span>
-            <span className="project-meta__value">Cultural</span>
+            <span className="project-meta__label  mb0">Programas usados</span>
+            <span className="project-meta__value">{this.props.programs}</span>
           </div>{' '}
           <div className="project-meta__field  field--6-in-row">
             <span className="project-meta__label  mb0">Status</span>
-            <span className="project-meta__value">Completed</span>
+            <span className="project-meta__value">{this.props.status}</span>
           </div>{' '}
           <div className="project-meta__field  field--6-in-row">
-            <span className="project-meta__label  mb0">Scale</span>
-            <span className="project-meta__value">38.500 m²</span>
+            <span className="project-meta__label  mb0">Escala</span>
+            <span className="project-meta__value">{this.props.scale}</span>
           </div>{' '}
         </div>
       </div>

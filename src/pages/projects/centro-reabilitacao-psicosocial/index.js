@@ -4,6 +4,8 @@ import Header from '../../../components/Header/Header'
 import Footer from '../../../components/Footer'
 import Contact from '../../../components/Contact'
 import ProjectInformation from '../../../components/ProjectInformation/ProjectInformation'
+import ProjectConcept from '../../../components/Projects/ProjectConcept'
+import ProjectImage from '../../../components/Projects/ProjectImage'
 
 class CentroReabilitacaoPsicosical extends Component {
   render() {
@@ -11,6 +13,10 @@ class CentroReabilitacaoPsicosical extends Component {
     const bannerTitle = (
       <h1 className="banner-title">Centro de Reabilitação Psicosocial</h1>
     )
+
+    const concept = `
+      O conceito desse projeto é
+    `
 
     return (
       <div>
@@ -26,7 +32,24 @@ class CentroReabilitacaoPsicosical extends Component {
         />
         <div>
           <Header type={'p-centro-reabilitacao'} bannerTitle={bannerTitle} />
-          <ProjectInformation />
+          <ProjectConcept text={concept} />
+          <div className="row justify-content-around">
+            <ProjectImage
+              image={'/img/projects/centro-reabilitacao/project1.jpg'}
+            />
+            <ProjectImage
+              image={'/img/projects/centro-reabilitacao/project1.jpg'}
+            />
+          </div>
+
+          <ProjectInformation
+            architects={'Jhannifer Oliveira'}
+            client={'Prefeitura de Lauro de Freitas'}
+            year={2017}
+            programs={'Revit, AutoCAD'}
+            status={'Finalizado'}
+            scale={'x'}
+          />
           <Contact />
           <Footer />
         </div>

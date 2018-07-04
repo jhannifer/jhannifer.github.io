@@ -27,12 +27,13 @@
     "gatsby-transformer-remark": "^1.7.7",
     "gatsby-transformer-sharp": "^1.6.5",
     "jquery": "^3.3.1",
+    "mixitup": "^3.2.2",
+    "npm": "^6.1.0",
     "react-lazyload": "^2.2.7",
     "react-responsive-grid": "^0.3.4",
     "react-scrollable-anchor": "^0.6.1",
     "react-tap-event-plugin": "^2.0.1",
-    "react-typography": "^0.16.5",
-    "mixitup": "^3.2.2"
+    "react-typography": "^0.16.5"
   },
   "devDependencies": {
     "animate.css": "^3.5.2",
