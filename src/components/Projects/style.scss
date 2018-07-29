@@ -1,27 +1,32 @@
-
 .concept-title {
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     color: #171617;
     font-weight: bold;
 }
 
 .project-image-container {
-    img {
-        max-width: 510px;
+    @media only screen and (min-width: 768px) {
+        img {
+            max-width: 510px;
+        }
+        img.p-330 {
+            max-width: 330px;
+        }
     }
-
     img.p-100 {
         max-width: 100%;
     }
 }
 
-.narrow, blockquote {
-    max-width: 30em;
+.narrow,
+blockquote {
+    max-width: 45em;
 }
 
-blockquote, .intro {
-    font-size: 1.41176rem;
+blockquote,
+.intro {
+    font-size: 1.3rem;
     font-weight: 300;
     margin-left: auto;
     margin-right: auto;

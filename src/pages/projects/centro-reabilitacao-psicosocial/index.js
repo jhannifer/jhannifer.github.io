@@ -43,13 +43,15 @@ class CentroReabilitacaoPsicosical extends Component {
 
           <ProjectDescription text={description} />
 
-          <div className="row justify-content-around">
+          <div className="row container mx-auto justify-content-around">
             <ProjectImage
+              containerClass={`mt-2`}
               image={
                 '/img/projects/centro-reabilitacao/localizacao_terreno.jpg'
               }
             />
             <ProjectImage
+              containerClass={`mt-2`}
               image={'/img/projects/centro-reabilitacao/planta_situacao.jpg'}
             />
           </div>
@@ -62,26 +64,32 @@ class CentroReabilitacaoPsicosical extends Component {
             </h3>
           </div>
 
-          <div className="row justify-content-around">
+          <div className="row justify-content-around container mx-auto">
             <ProjectImage
+              containerClass={`col-md-4 mt-2`}
+              customClass={`p-330`}
               image={'/img/projects/centro-reabilitacao/conceito1.jpg'}
             />
             <ProjectImage
+              containerClass={`col-md-4 mt-2`}
+              customClass={`p-330`}
               image={'/img/projects/centro-reabilitacao/conceito2.jpg'}
             />
 
             <ProjectImage
+              containerClass={`col-md-4 mt-2`}
+              customClass={`p-330`}
               image={'/img/projects/centro-reabilitacao/conceito3.jpg'}
             />
           </div>
 
-          <div className="row justify-content-around mt-3">
+          <div className="row container mx-auto justify-content-around mt-3">
             <ProjectImage
               image={'/img/projects/centro-reabilitacao/conceito4.jpg'}
             />
           </div>
 
-          <div className="row justify-content-around container mx-auto">
+          <div className="row justify-content-around container mx-auto mt-3">
             <div className="col-md-4">
               <ProjectImage
                 customClass={'p-100'}
@@ -144,6 +152,41 @@ class CentroReabilitacaoPsicosical extends Component {
                   'Jardins terapêuticos - Espaços humanizados atendendo as necessidades físicas e mentais dos pacientes.'
                 }
               />
+            </div>
+
+            <div className="mt-5">
+              <h3 className="text-center concept-title">
+                Planta baixa térreo e planta baixa 1 PAV
+              </h3>
+            </div>
+
+            <div className="row">
+              <div className="col-md-4 mt-2">
+                {' '}
+                <ProjectImage
+                  customClass={'p-100'}
+                  image={'/img/projects/centro-reabilitacao/corteAA.jpg'}
+                  subtitle={'Corte AA'}
+                />
+              </div>
+
+              <div className="col-md-4 mt-2">
+                {' '}
+                <ProjectImage
+                  customClass={'p-100'}
+                  image={'/img/projects/centro-reabilitacao/corteBB.jpg'}
+                  subtitle={'Corte BB'}
+                />
+              </div>
+
+              <div className="col-md-4 mt-2">
+                {' '}
+                <ProjectImage
+                  customClass={'p-100'}
+                  image={'/img/projects/centro-reabilitacao/corteCC.jpg'}
+                  subtitle={'Corte CC'}
+                />
+              </div>
             </div>
           </div>
 

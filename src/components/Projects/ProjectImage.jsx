@@ -11,10 +11,12 @@ class ProjectImage extends Component {
     }
 
     return (
-      <div className="project-image-container">
+      <div
+        className={`project-image-container ${this.props.containerClass || ''}`}
+      >
         <img
           src={this.props.image}
-          className={`img-fluid ${this.props.customClass}`}
+          className={`img-fluid ${this.props.customClass || ''}`}
           alt=""
         />
         {subtitle}

@@ -7,7 +7,9 @@ class ProjectConcept extends Component {
     return (
       <div className="mt-5">
         <h3 className="text-center concept-title">Conceito</h3>
-        <p className="intro narrow not-big text-center">{this.props.text}</p>
+        <p className="intro container narrow not-big text-center">
+          {this.props.text}
+        </p>
       </div>
     )
   }
