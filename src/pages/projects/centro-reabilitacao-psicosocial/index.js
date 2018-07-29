@@ -8,13 +8,12 @@ import ProjectConcept from '../../../components/Projects/ProjectConcept'
 import ProjectImage from '../../../components/Projects/ProjectImage'
 import ProjectDescription from '../../../components/Projects/ProjectDescription'
 import ProjectParallax from '../../../components/Projects/ProjectParallax'
-
 class CentroReabilitacaoPsicosical extends Component {
   render() {
     const site = this.props.data.site.siteMetadata
     const bannerTitle = (
       <h1 className="banner-title">
-        Centro de Reabilitação Psicosocial para Crianças e Adolescentes
+        Centro de Reabilitação Psicosocial para Crianças e Adolescentes  {' '}
       </h1>
     )
 
@@ -32,64 +31,81 @@ class CentroReabilitacaoPsicosical extends Component {
         <Helmet
           title={site.title}
           meta={[
-            { property: 'og:title', content: site.title },
-            { property: 'og:type', content: 'website' },
-            { property: 'og:description', content: site.description },
-            { property: 'og:url', content: site.url },
-            { property: 'og:author', content: site.author },
+            {
+              property: 'og:title',
+              content: site.title,
+            },
+            {
+              property: 'og:type',
+              content: 'website',
+            },
+            {
+              property: 'og:description',
+              content: site.description,
+            },
+            {
+              property: 'og:url',
+              content: site.url,
+            },
+            {
+              property: 'og:author',
+              content: site.author,
+            },
           ]}
-        />
+        />{' '}
+        {' '}
         <div>
-          <Header type={'p-centro-reabilitacao'} bannerTitle={bannerTitle} />
-
-          <ProjectDescription text={description} />
-
+          <Header
+            type={'p-centro-reabilitacao'}
+            bannerTitle={bannerTitle}
+          />{' '}
+          <ProjectDescription text={description} />{' '}
           <div className="row container mx-auto justify-content-around">
             <ProjectImage
               containerClass={`mt-2`}
               image={
                 '/img/projects/centro-reabilitacao/localizacao_terreno.jpg'
               }
-            />
+            />{' '}
+            {' '}
             <ProjectImage
               containerClass={`mt-2`}
               image={'/img/projects/centro-reabilitacao/planta_situacao.jpg'}
-            />
-          </div>
-
-          <ProjectConcept text={concept} />
-
+            />{' '}
+            {' '}
+          </div>{' '}
+          <ProjectConcept text={concept} />{' '}
           <div className="mt-5">
             <h3 className="text-center concept-title">
-              A evolução do conceito
-            </h3>
-          </div>
-
+              A evolução do conceito  {' '}
+            </h3>{' '}
+            {' '}
+          </div>{' '}
           <div className="row justify-content-around container mx-auto">
             <ProjectImage
               containerClass={`col-md-4 mt-2`}
               customClass={`p-330`}
               image={'/img/projects/centro-reabilitacao/conceito1.jpg'}
-            />
+            />{' '}
+            {' '}
             <ProjectImage
               containerClass={`col-md-4 mt-2`}
               customClass={`p-330`}
               image={'/img/projects/centro-reabilitacao/conceito2.jpg'}
-            />
-
+            />{' '}
             <ProjectImage
               containerClass={`col-md-4 mt-2`}
               customClass={`p-330`}
               image={'/img/projects/centro-reabilitacao/conceito3.jpg'}
-            />
-          </div>
-
+            />{' '}
+            {' '}
+          </div>{' '}
           <div className="row container mx-auto justify-content-around mt-3">
             <ProjectImage
               image={'/img/projects/centro-reabilitacao/conceito4.jpg'}
-            />
-          </div>
-
+            />{' '}
+            {' '}
+          </div>{' '}
           <div className="row justify-content-around container mx-auto mt-3">
             <div className="col-md-4">
               <ProjectImage
@@ -98,30 +114,37 @@ class CentroReabilitacaoPsicosical extends Component {
                 subtitle={
                   'Ensolejamento - A implantação favorece 100% na iluminação natural.'
                 }
-              />
-            </div>
+              />{' '}
+              {' '}
+            </div>{' '}
+            {' '}
             <div className="col-md-4">
               {' '}
+                 {' '}
               <ProjectImage
                 customClass={'p-100'}
                 image={'/img/projects/centro-reabilitacao/ventos.jpg'}
                 subtitle={
                   'Ventos predominantes - A implantação aproveita a circulação natural dos ventos deixando o ambiente confortável'
                 }
-              />
-            </div>
+              />{' '}
+              {' '}
+            </div>{' '}
+            {' '}
             <div className="col-md-4">
               {' '}
+                 {' '}
               <ProjectImage
                 customClass={'p-100'}
                 image={'/img/projects/centro-reabilitacao/pedestre.jpg'}
                 subtitle={
                   'Circulação de pedestre - Espaços de integração com a comunidade.'
                 }
-              />
-            </div>
-          </div>
-
+              />{' '}
+              {' '}
+            </div>{' '}
+            {' '}
+          </div>{' '}
           <div className="row justify-content-around container mt-3 mx-auto">
             <div className="col-md-4">
               <ProjectImage
@@ -130,20 +153,26 @@ class CentroReabilitacaoPsicosical extends Component {
                 subtitle={
                   'Tratamento de águas cinzas e reaproveitamento de água pluvial'
                 }
-              />
-            </div>
+              />{' '}
+              {' '}
+            </div>{' '}
+            {' '}
             <div className="col-md-4">
               {' '}
+                 {' '}
               <ProjectImage
                 customClass={'p-100'}
                 image={'/img/projects/centro-reabilitacao/lazer_terraco.jpg'}
                 subtitle={
                   'Terraço produtivo e áreas de lazer Espaços abertos de encontros e trocas sociais entre os pacientes.'
                 }
-              />
-            </div>
+              />{' '}
+              {' '}
+            </div>{' '}
+            {' '}
             <div className="col-md-4">
               {' '}
+                 {' '}
               <ProjectImage
                 customClass={'p-100'}
                 image={
@@ -152,52 +181,57 @@ class CentroReabilitacaoPsicosical extends Component {
                 subtitle={
                   'Jardins terapêuticos - Espaços humanizados atendendo as necessidades físicas e mentais dos pacientes.'
                 }
-              />
-            </div>
-
+              />{' '}
+              {' '}
+            </div>{' '}
             <div className="mt-5">
               <h3 className="text-center concept-title">
-                Planta baixa térreo e planta baixa 1 PAV
-              </h3>
-            </div>
-
+                Planta baixa térreo e planta baixa 1 PAV  {' '}
+              </h3>{' '}
+              {' '}
+            </div>{' '}
             <div className="row">
               <div className="col-md-4 mt-2">
                 {' '}
+                   {' '}
                 <ProjectImage
                   customClass={'p-100'}
                   image={'/img/projects/centro-reabilitacao/corteAA.jpg'}
                   subtitle={'Corte AA'}
-                />
-              </div>
-
+                />{' '}
+                {' '}
+              </div>{' '}
               <div className="col-md-4 mt-2">
                 {' '}
+                   {' '}
                 <ProjectImage
                   customClass={'p-100'}
                   image={'/img/projects/centro-reabilitacao/corteBB.jpg'}
                   subtitle={'Corte BB'}
-                />
-              </div>
-
+                />{' '}
+                {' '}
+              </div>{' '}
               <div className="col-md-4 mt-2">
                 {' '}
+                   {' '}
                 <ProjectImage
                   customClass={'p-100'}
                   image={'/img/projects/centro-reabilitacao/corteCC.jpg'}
                   subtitle={'Corte CC'}
-                />
-              </div>
-            </div>
-          </div>
-
+                />{' '}
+                {' '}
+              </div>{' '}
+              {' '}
+            </div>{' '}
+            {' '}
+          </div>{' '}
           <div className="row justify-content-around">
             <ProjectParallax
               customClass={'p-100'}
               image={'/img/projects/centro-reabilitacao/corteDD1.jpg'}
-            />
-          </div>
-
+            />{' '}
+            {' '}
+          </div>{' '}
           <ProjectInformation
             architects={'Jhannifer Oliveira'}
             client={'Prefeitura de Lauro de Freitas'}
@@ -205,10 +239,11 @@ class CentroReabilitacaoPsicosical extends Component {
             programs={'Revit, AutoCAD'}
             status={'Finalizado'}
             scale={'x'}
-          />
-          <Contact />
+          />{' '}
+           <Contact />
           <Footer />
-        </div>
+        </div>{' '}
+        {' '}
       </div>
     )
   }

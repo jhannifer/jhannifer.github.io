@@ -3,8 +3,6 @@ import React, { Component } from 'react'
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax'
 
 class ProjectParallax extends Component {
-  componentDidMount() {}
-
   render() {
     return (
       <ParallaxProvider>
