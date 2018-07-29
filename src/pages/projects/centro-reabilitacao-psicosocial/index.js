@@ -7,6 +7,7 @@ import ProjectInformation from '../../../components/ProjectInformation/ProjectIn
 import ProjectConcept from '../../../components/Projects/ProjectConcept'
 import ProjectImage from '../../../components/Projects/ProjectImage'
 import ProjectDescription from '../../../components/Projects/ProjectDescription'
+import ProjectParallax from '../../../components/Projects/ProjectParallax'
 
 class CentroReabilitacaoPsicosical extends Component {
   render() {
@@ -188,6 +189,13 @@ class CentroReabilitacaoPsicosical extends Component {
                 />
               </div>
             </div>
+          </div>
+
+          <div className="row justify-content-around">
+            <ProjectParallax
+              customClass={'p-100'}
+              image={'/img/projects/centro-reabilitacao/corteDD1.jpg'}
+            />
           </div>
 
           <ProjectInformation
