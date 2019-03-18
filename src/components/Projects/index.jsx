@@ -69,16 +69,13 @@ class Projects extends React.Component {
                         <div className="sup-desc-wrap ">
                           <div className="sup-desc-inner ">
                             <div className="sup-meta-wrap ">
-                              <Link
-                                to="#"
-                                // to="/projects/centro-reabilitacao-psicosocial"
-                                innerRef={el => {
-                                  this.myLink = el
-                                }}
+                              <a
+                                target="_blank"
+                                href={`https://issuu.com/jhanniferoliveira/docs/jhannifer_-_portf_lio_05.06.2018/2`}
                                 className="sup-title"
                               >
                                 <h4>Centro de Reabilitação Psicosocial</h4>
-                              </Link>
+                              </a>
                               <p className="sup-description">
                                 para crianças e adolescentes
                               </p>
@@ -98,7 +95,7 @@ class Projects extends React.Component {
                           <div className="sup-desc-inner">
                             <div className="sup-meta-wrap">
                               <a className="sup-title" href="#">
-                                <h4>Em breve...</h4>
+                                <h4>Em desenvolvimento...</h4>
                               </a>
                               <p className="sup-description">
                                 {/* Responsive Wordpress Onepage Template */}
@@ -119,7 +116,7 @@ class Projects extends React.Component {
                           <div className="sup-desc-inner">
                             <div className="sup-meta-wrap">
                               <a className="sup-title" href="#">
-                                <h4>Em breve...</h4>
+                                <h4>Em desenvolvimento...</h4>
                               </a>
                               <p className="sup-description">
                                 {/* Responsive Wordpress Onepage Template */}
