@@ -2,7 +2,9 @@ import React from 'react'
 import Link from 'gatsby-link'
 import { siteMetadata } from '../../gatsby-config'
 
-import 'bootstrap/dist/js/bootstrap.js'
+import jQuery from 'jquery'
+
+// import 'bootstrap'
 
 import './custom-bootstrap.scss'
 import './main.scss'
@@ -11,34 +13,33 @@ import 'font-awesome/css/font-awesome.css'
 import 'prismjs/themes/prism-okaidia.css'
 import 'devicon/devicon.min.css'
 
-import $ from 'jquery'
 import mixitup from 'mixitup'
 
 class Template extends React.Component {
   componentDidMount() {
-    $('#loader').fadeOut()
+    jQuery('#loader').fadeOut()
 
-    $(window).on('scroll', function() {
-      if ($(window).scrollTop() > 20) {
-        $('.header-top-area').addClass('menu-bg')
+    jQuery(window).on('scroll', function() {
+      if (jQuery(window).scrollTop() > 20) {
+        jQuery('.header-top-area').addClass('menu-bg')
       } else {
-        $('.header-top-area').removeClass('menu-bg')
+        jQuery('.header-top-area').removeClass('menu-bg')
       }
     })
 
     let offset = 200
     let duration = 500
 
-    $(window).scroll(function() {
-      if ($(this).scrollTop() > offset) {
-        $('.back-to-top').fadeIn(400)
+    jQuery(window).scroll(function() {
+      if (jQuery(this).scrollTop() > offset) {
+        jQuery('.back-to-top').fadeIn(400)
       } else {
-        $('.back-to-top').fadeOut(400)
+        jQuery('.back-to-top').fadeOut(400)
       }
     })
-    $('.back-to-top').click(function(event) {
+    jQuery('.back-to-top').click(function(event) {
       event.preventDefault()
-      $('html, body').animate(
+      jQuery('html, body').animate(
         {
           scrollTop: 0,
         },
@@ -47,11 +48,11 @@ class Template extends React.Component {
       return false
     })
 
-    $(window).on('scroll', function() {
-      if ($(window).scrollTop() > 200) {
-        $('.fixed-top').addClass('menu-bg')
+    jQuery(window).on('scroll', function() {
+      if (jQuery(window).scrollTop() > 200) {
+        jQuery('.fixed-top').addClass('menu-bg')
       } else {
-        $('.fixed-top').removeClass('menu-bg')
+        jQuery('.fixed-top').removeClass('menu-bg')
       }
     })
 
